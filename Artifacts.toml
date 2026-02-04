@@ -1,0 +1,19 @@
+[[pppack]]
+arch = "x86_64"
+git-tree-sha1 = "d84211d18db9db219952acfe055ec35b71a65ded"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[pppack.download]]
+    sha256 = "2bb5aa4cae115d1402c4d9a862a63b8ca120c980b0edea5ffa6cdebd86ba2b63"
+    url = "https://github.com/adryyan/pppack_jll.jl/releases/download/pppack-v1.0.0+0/pppack.v1.0.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[pppack]]
+arch = "x86_64"
+git-tree-sha1 = "757a5a6dfa1f6bae2953f266bc908cde6315c388"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[pppack.download]]
+    sha256 = "c0fd65f2b7e2f2040cb4665d887a19a8afcd75e01354c11e1d81e8d930ef5748"
+    url = "https://github.com/adryyan/pppack_jll.jl/releases/download/pppack-v1.0.0+0/pppack.v1.0.0.x86_64-w64-mingw32-libgfortran5.tar.gz"
